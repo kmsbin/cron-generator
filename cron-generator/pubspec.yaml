@@ -1,5 +1,7 @@
 name: cron_generator
-publish_to: pub.dev
+description: A very easy way to generate crons with dart or unix style.
+version: 0.0.1
+repository: https://github.com/kmsbin/cron-generator
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
@@ -8,13 +10,9 @@ dependencies:
   analyzer: '>=5.2.0 <7.0.0'
   build: ^2.0.0
   collection: ^1.18.0
-  cron: any
+  cron_generator_annotations: ^0.0.1
   meta: ^1.12.0
-  source_gen: any
+  source_gen: ^1.5.0
 
 dev_dependencies:
   dart_flutter_team_lints: ^2.1.1
-
-dependency_overrides:
-  source_gen:
-    path: ../source_gen

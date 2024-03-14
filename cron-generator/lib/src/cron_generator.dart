@@ -1,13 +1,10 @@
-import 'dart:async';
-
 import 'package:analyzer/dart/constant/value.dart';
 import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/dart/element/type.dart';
 import 'package:build/build.dart';
 import 'package:collection/collection.dart';
+import 'package:cron_generator_annotations/cron_generator_annotations.dart';
 import 'package:source_gen/source_gen.dart';
-
-import '../annotations.dart';
 
 const _checker = TypeChecker.fromRuntime(CronGenMethod);
 
@@ -56,7 +53,6 @@ class CronGenerator extends GeneratorForAnnotation<CronBase> {
 
     return buffer.toString();
   }
-
 
   String getSchedulerNamed(Element cronMethod) {
     if (_checker

@@ -1,3 +1,1 @@
-An Dart package demonstrating how to create `source_gen`-based builders. 
-
-See also the `example_usage` directory.
+Examples how to use [cron generator annotations](https://pub.dev/packages/cron_generator_annotations)

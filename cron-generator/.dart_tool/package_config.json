@@ -56,6 +56,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "cron_generator_annotations",
+      "rootUri": "file:///home/kauli/.pub-cache/hosted/pub.dev/cron_generator_annotations-0.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "crypto",
       "rootUri": "file:///home/kauli/.pub-cache/hosted/pub.dev/crypto-3.0.3",
       "packageUri": "lib/",
@@ -123,7 +129,7 @@
     },
     {
       "name": "source_gen",
-      "rootUri": "../../source_gen",
+      "rootUri": "file:///home/kauli/.pub-cache/hosted/pub.dev/source_gen-1.5.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -170,7 +176,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-03-13T13:39:47.533080Z",
+  "generated": "2024-03-14T14:33:35.341752Z",
   "generator": "pub",
   "generatorVersion": "3.3.0"
 }

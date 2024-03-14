@@ -28,8 +28,8 @@ class CronGenMethod {
     this.weekdays,
   }) : data = null;
 
-  const CronGenMethod.parse(this.data) :
-        seconds = null,
+  const CronGenMethod.parse(this.data)
+      : seconds = null,
         minutes = null,
         hours = null,
         days = null,

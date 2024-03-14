@@ -1,6 +1,13 @@
 This package encapsulate your methods with cron jobs, using
 [dart cron package](https://pub.dev/packages/cron) and is a source_gen study case so use with caught
 
+## Quick start
+
+Install the following dependencies
+```shell
+dart pub add cron_generator_annotations dev:cron_generator
+```
+
 ## Usage
 
 Add the @CronBase() annotation to your class and @CronGenMethod to the 

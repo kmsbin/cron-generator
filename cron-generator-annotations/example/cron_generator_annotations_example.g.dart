@@ -11,11 +11,10 @@ part of 'cron_generator_annotations_example.dart';
 mixin _$MyCronCron on MyCronTest {
   final _cron = Cron();
   @override
-  void myCronStuffs(int arg,
-      {required int requiredArg, double? optionalArg}) {
+  void myCronStuffs(int arg, {required int requiredArg, double? optionalArg}) {
     _cron.schedule(
         Schedule(minutes: '1-2'),
-            () => super.myCronStuffs(arg,
+        () => super.myCronStuffs(arg,
             requiredArg: requiredArg, optionalArg: optionalArg));
   }
 

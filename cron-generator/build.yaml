@@ -11,7 +11,7 @@ builders:
   #   combine the parts from each builder into one part file.
 
   cron_generator_phase:
-    import: "package:cron_generator/builder.dart"
+    import: "package:cron_generator/cron_generator.dart"
     builder_factories: ["cronBuilder"]
     build_extensions: {".dart": ["cron.g.part"]}
     auto_apply: dependents
